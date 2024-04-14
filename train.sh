@@ -11,7 +11,7 @@ litgpt download \
 
 # Uncomment the following line and add your Huggingface Token here
 # Generate or retrieve your Huggingface Token at https://huggingface.co/settings/tokens
-# export HF_TOKEN=[YOUR_HF_TOKEN]
+export HF_TOKEN='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'
 
 # LoRA instruction tuning
 # Before finetuning, please run torch.cuda.is_bf16_supported(). If it returns False, set --precision 16-mixed to use a fp-16-based mixed precision
